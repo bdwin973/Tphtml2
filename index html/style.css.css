@@ -1,0 +1,223 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: whitesmoke;
+    color: black;
+}
+header{
+    background-color: rgb(57, 132, 126);
+    display: flex; /* a activer la fonction felxbox*/
+    align-items: center;
+    justify-content: space-around;
+   
+    color:white\
+
+}
+.p2 {
+    border: 2px solid white; /* largeur, style et couleur de la bordure */
+    padding: 10px; /* espace entre le texte et la bordure */
+    font-size: 12px;
+    background-color:white;
+    
+}
+p{
+    color:white;
+    font-size: 30px;
+    
+}
+.paraO{
+    margin-top: 15px;
+    border: 10px solid white; /* largeur, style et couleur de la bordure */
+    padding: 15px; /* espace entre le texte et la bordure */
+    background-color:white;
+    height: 300px;
+    width:300px
+    margin-left: 25px;
+}
+.op{
+    margin-left: 35px;
+}
+
+
+h2{
+    align-items: left;   
+    justify-content: space-around;
+}
+
+
+.image-dessin {
+    float: left;
+    width: 350px;                                /*largeur*/
+    justify-content: space-around;
+    height: auto; /*hauteur*/
+}
+
+
+.image-Optique{
+    display: flex;
+    float: right;
+    width: 350px;
+    height: 350px;
+    margin-top: 0px;  /*espace en haut de l'image*/
+    
+
+}
+
+.Optique{
+    margin-left: 75px;
+
+
+}
+
+.image-audition{
+    
+    float: left;
+    width: 450px;
+    height: 350px;
+    z-index: 1;
+    position: absolute;
+
+
+}
+.p5{
+    gap:30px;
+    position: relative;
+    font-size: 12px;
+    top: 10px;
+    display:flex;
+    align-items: center;
+    background-color: white;
+    
+}
+
+    
+p6{
+    position: absolute;
+    margin-left: 470px;
+    margin-top: -260px;
+}
+
+
+
+.pA{
+    font-size: 35px;
+    
+
+    width: 560px;
+    height: 50px;
+}
+
+
+
+
+.paraA{
+
+    margin-left: 450px;
+    gap: 200px;
+    border: 10px solid white; /* largeur, style et couleur de la bordure */
+    padding: 5px; /* espace entre le texte et la bordure */
+    background-color:white;
+    width: 560px;
+    height: 320px;
+   
+    
+
+}
+
+
+.savoir{
+    background-color: #f0f2f2; 
+    color: rgb(11, 11, 11); 
+    text-align: center; /* Alignement du texte */
+    font-size: 16px; 
+    border-radius: 10px; /* Coins arrondis */
+    border-color: rgb(13, 13, 13);
+}
+
+.image-stand {
+    float: left;
+    display: flex;
+    width: 350px;                                /*largeur*/
+    justify-content: space-around;
+    height: 400px; /*hauteur*/
+}
+
+.p22{
+    border: 2px solid white; /* largeur, style et couleur de la bordure */
+    padding: 10px; /* espace entre le texte et la bordure */
+    font-size: 8px;
+    background-color:white;
+    position: relative;
+    
+
+}
+
+.image-Lentille{
+    display: flex;
+    float: right;
+    width: 350px;
+    height: 350px;
+    margin-top: 0px;  /*espace en haut de l'image*/
+
+}
+
+.paraL{
+    margin-top: 15px;
+    border: 10px solid white; /* largeur, style et couleur de la bordure */
+    padding: 15px; /* espace entre le texte et la bordure */
+    background-color:white;
+    height: 300px;
+    width:300px
+    margin-left: 25px;
+
+}
+
+
+.paraLu{
+
+margin-left: 450px;
+gap: 200px;
+border: 10px solid white; /* largeur, style et couleur de la bordure */
+padding: 5px; /* espace entre le texte et la bordure */
+background-color:white;
+width: 560px;
+height: 370px;
+               
+}
+.p6{
+
+}
+  
+.image-lunette{
+
+    float: left;
+    width: 450px;
+    height: 400px;
+    z-index: 1;
+    position: absolute;
+}
+
+
+.icon{
+    margin-top: 200px;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    
+
+}
+.insta{
+    
+    width: 50px;
+    height: 50px;  
+    
+}
+
+.mail{
+    width: 50px;
+    height: 50px;  
+}
+
+.linkedin{  
+    width: 50px;
+    height: 50px;
+}
